@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+.hi{
+    background-color: white;
+}
+.links{
+    text-align: center;
+    padding: 2px;
+    color: #3e0550;
+    font-family: 'Copperplate';
+    font-size: large;
+}
+.title{
+    text-align: center;
+    font-family: 'Playfair Display';
+    color: #a02884;
+}
+.blurb{
+    text-align: center;
+    font-family: 'Playfair Display';
+}
+a{
+    color: inherit;
+}
+.blog {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+.blogWhite {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+.fakeimg {
+    background-color: #aaa;
+    width: 90%;
+    padding: 20px;
+}
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 20px;
+    align-items: flex-end;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    height: 775px;
+    text-align: center;
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    height: 625px;
+    text-align: center;
+}
+.container {
+    padding: 0 16px;
+}
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.about-section { /*banner*/
+    padding: 50px;
+    text-align: center;
+    background-color: #3e0550;
+    color: white;
+}
+.about-section1 { /*bottom banner*/
+    padding: 25px;
+    font-size: 10px;
+    text-align: center;
+    background-color: #a02884;
+    color: white;
+}
+
+  .topnav {
+    display: inline-block;
+  }
+  /* Navbar links */
+  .topnav a {
+    float:left;
+    color: #3e0550;
+    text-align: center;
+    font-family: 'Copperplate';
+    padding: 2px 2px;
+    font-size: 18px;
+  }
+  
+  .dropbtn {
+    color:#3e0550;
+    text-align: center;
+    font-family: 'Copperplate';
+    background-color: transparent;
+    padding: 2px;
+    font-size: 18px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+}
