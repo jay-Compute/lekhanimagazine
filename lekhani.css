@@ -95,6 +95,20 @@ a{
     font-size: 18px;
   }
   
+  .topnav a:hover {
+    background-color:#3e0550;
+    color: white;
+    border: 1px solid #3e0550;
+    border-radius: 0.2em;
+    transition: 0.3s all;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #BDF0D3; /*white*/
+    color: #096731; /*white*/
+  }
+  
   .dropbtn {
     color:#3e0550;
     text-align: center;

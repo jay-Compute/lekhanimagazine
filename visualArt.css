@@ -26,3 +26,13 @@ button {
     font-family: 'Times New Roman';
     margin: 10px;
   }
+
+.edits {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.points {
+	padding-left: 5%;
+	padding-left: 5%;
+}
